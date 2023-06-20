@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\bin\Debug\MedidorAmor.exe.config
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\bin\Debug\MedidorAmor.exe
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\bin\Debug\MedidorAmor.pdb
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.Form1.resources
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.exe
+C:\Users\Lenovo\source\repos\MedidorAmor\MedidorAmor\obj\Debug\MedidorAmor.pdb
