@@ -76,6 +76,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ArduinoMedidorAmor\Sketch_Roberto_1306\Sketch-Roberto-1306.ino" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

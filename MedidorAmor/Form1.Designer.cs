@@ -37,6 +37,12 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnStart = new System.Windows.Forms.ToolStripButton();
             this.btnStop = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.TxtPuerto = new System.Windows.Forms.ToolStripTextBox();
+            this.btnPuerto = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.LblPuerto = new System.Windows.Forms.ToolStripLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -78,10 +84,16 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnStart,
-            this.btnStop});
+            this.btnStop,
+            this.toolStripSeparator1,
+            this.toolStripLabel1,
+            this.TxtPuerto,
+            this.btnPuerto,
+            this.toolStripSeparator2,
+            this.LblPuerto});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1023, 33);
+            this.toolStrip1.Size = new System.Drawing.Size(1023, 38);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -91,7 +103,7 @@
             this.btnStart.Image = global::MedidorAmor.Properties.Resources.iniciar;
             this.btnStart.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(34, 28);
+            this.btnStart.Size = new System.Drawing.Size(34, 33);
             this.btnStart.Text = "Iniciar";
             this.btnStart.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -102,9 +114,47 @@
             this.btnStop.Image = global::MedidorAmor.Properties.Resources.detener;
             this.btnStop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(34, 28);
+            this.btnStop.Size = new System.Drawing.Size(34, 33);
             this.btnStop.Text = "Detener";
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 38);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(68, 33);
+            this.toolStripLabel1.Text = "Puerto:";
+            // 
+            // TxtPuerto
+            // 
+            this.TxtPuerto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TxtPuerto.Name = "TxtPuerto";
+            this.TxtPuerto.Size = new System.Drawing.Size(100, 38);
+            this.TxtPuerto.Text = "COM1";
+            // 
+            // btnPuerto
+            // 
+            this.btnPuerto.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnPuerto.Image = ((System.Drawing.Image)(resources.GetObject("btnPuerto.Image")));
+            this.btnPuerto.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnPuerto.Name = "btnPuerto";
+            this.btnPuerto.Size = new System.Drawing.Size(34, 33);
+            this.btnPuerto.Text = "toolStripButton1";
+            this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 38);
+            // 
+            // LblPuerto
+            // 
+            this.LblPuerto.Name = "LblPuerto";
+            this.LblPuerto.Size = new System.Drawing.Size(0, 33);
             // 
             // Form1
             // 
@@ -136,6 +186,12 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton btnStart;
         private System.Windows.Forms.ToolStripButton btnStop;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripTextBox TxtPuerto;
+        private System.Windows.Forms.ToolStripButton btnPuerto;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripLabel LblPuerto;
     }
 }
 

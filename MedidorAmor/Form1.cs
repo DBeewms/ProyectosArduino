@@ -25,6 +25,7 @@ namespace MedidorAmor
         string texto = "0.0";
         double temperature = 0.0;
         double baselineTemp = 23;
+        string _puerto="COM6";
 
         private void Start()
         {
@@ -62,7 +63,14 @@ namespace MedidorAmor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            serialPort1.PortName = "COM6";
+            try
+            {
+                serialPort1.PortName = _puerto;
+                LblPuerto.Text = _puerto;
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Advertencia: " + ex.Message, "Love-o-meter", MessageBoxButtons.OK);
+            }
         }
 
         private void getTemp()
@@ -142,6 +150,12 @@ namespace MedidorAmor
         private void btnStop_Click(object sender, EventArgs e)
         {
             Start();
+        }
+
+        private void btnPuerto_Click(object sender, EventArgs e)
+        {
+            _puerto = TxtPuerto.Text;
+            LblPuerto.Text = _puerto;
         }
     }
 }
