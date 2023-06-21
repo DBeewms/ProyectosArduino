@@ -34,11 +34,19 @@ namespace MedidorAmor
                 {
                     serialPort1.Open();
                     active = true;
+                    timer1.Enabled = true;
+                    timer1.Interval = 50;
+                    timer1.Start();
+                    btnStart.Enabled = false;
+                    btnStop.Enabled = true;
                 }
                 else
                 {
                     serialPort1.Close();
                     active = false;
+                    timer1.Enabled = false;
+                    btnStart.Enabled = true;
+                    btnStop.Enabled = false;
                 }
             }
             catch (Exception ex)
@@ -54,15 +62,7 @@ namespace MedidorAmor
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            try
-            {
-                serialPort1.PortName = "COM6";
-                Start();
-                timer1.Enabled = true;
-                timer1.Interval = 50;
-                timer1.Start();
-            }
-            catch (Exception ex) { }
+            serialPort1.PortName = "COM6";
         }
 
         private void getTemp()
@@ -127,6 +127,21 @@ namespace MedidorAmor
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Start();
+                
+            }
+            catch (Exception ex) { }
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            Start();
         }
     }
 }

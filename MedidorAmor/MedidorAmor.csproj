@@ -86,6 +86,8 @@
     <Content Include="Imagenes\abeja22.jpg" />
     <Content Include="Imagenes\abeja333.jpg" />
     <Content Include="Imagenes\CorazonUCA.gif" />
+    <Content Include="Imagenes\detener.png" />
+    <Content Include="Imagenes\iniciar.png" />
     <Content Include="Imagenes\Logo UCA.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
