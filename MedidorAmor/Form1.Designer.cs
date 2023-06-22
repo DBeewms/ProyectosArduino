@@ -93,7 +93,7 @@
             this.LblPuerto});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1023, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(1023, 33);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -103,7 +103,7 @@
             this.btnStart.Image = global::MedidorAmor.Properties.Resources.iniciar;
             this.btnStart.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(34, 33);
+            this.btnStart.Size = new System.Drawing.Size(34, 28);
             this.btnStart.Text = "Iniciar";
             this.btnStart.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -114,26 +114,26 @@
             this.btnStop.Image = global::MedidorAmor.Properties.Resources.detener;
             this.btnStop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(34, 33);
+            this.btnStop.Size = new System.Drawing.Size(34, 28);
             this.btnStop.Text = "Detener";
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 38);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 33);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(68, 33);
+            this.toolStripLabel1.Size = new System.Drawing.Size(68, 28);
             this.toolStripLabel1.Text = "Puerto:";
             // 
             // TxtPuerto
             // 
             this.TxtPuerto.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TxtPuerto.Name = "TxtPuerto";
-            this.TxtPuerto.Size = new System.Drawing.Size(100, 38);
+            this.TxtPuerto.Size = new System.Drawing.Size(100, 33);
             this.TxtPuerto.Text = "COM1";
             // 
             // btnPuerto
@@ -142,19 +142,19 @@
             this.btnPuerto.Image = ((System.Drawing.Image)(resources.GetObject("btnPuerto.Image")));
             this.btnPuerto.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPuerto.Name = "btnPuerto";
-            this.btnPuerto.Size = new System.Drawing.Size(34, 33);
+            this.btnPuerto.Size = new System.Drawing.Size(34, 28);
             this.btnPuerto.Text = "toolStripButton1";
             this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 38);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
             // 
             // LblPuerto
             // 
             this.LblPuerto.Name = "LblPuerto";
-            this.LblPuerto.Size = new System.Drawing.Size(0, 33);
+            this.LblPuerto.Size = new System.Drawing.Size(0, 28);
             // 
             // Form1
             // 

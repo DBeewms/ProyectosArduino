@@ -1,6 +1,7 @@
 const int sensorPin = A0;
-const float baselineTemp = 23;
+const float baselineTemp = 36;
 int led1 = 2, led2 = 3, led3 = 4;
+ float temperature=0;
 
 void leertemperatura() {
   int sensorVal = analogRead(sensorPin);
@@ -11,9 +12,10 @@ void leertemperatura() {
   //Serial.print(", Volts: ");
   //Serial.print(voltage);
 
-  float temperature = (voltage - 0.5) * 100;
+  temperature = (voltage - 0.5) * 100;
   //Serial.print(", degrees C: ");
-  Serial.println(temperature);
+  Serial.print(temperature);
+  Serial.println("-");
 }
 
 void setup() {
@@ -35,8 +37,8 @@ void loop() {
   leertemperatura();
 
   // Almacenar la temperatura actual
-  float temperature = (analogRead(sensorPin) / 1024.0) * 5.0;
-  temperature = (temperature - 0.5) * 100;
+  //float temperature = (analogRead(sensorPin) / 1024.0) * 5.0;
+  //temperature = (temperature - 0.5) * 100;
 
   // Animación Calculando
   if (temperature > baselineTemp + 2) {
@@ -69,8 +71,8 @@ void loop() {
     leertemperatura();
     
     // Almacenar la temperatura actual
-    float temperature = (analogRead(sensorPin) / 1024.0) * 5.0;
-    temperature = (temperature - 0.5) * 100;
+    //float temperature = (analogRead(sensorPin) / 1024.0) * 5.0;
+    //temperature = (temperature - 0.5) * 100;
 
     // Muestra de Resultado
     digitalWrite(led1, LOW);

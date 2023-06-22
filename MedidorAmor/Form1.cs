@@ -24,7 +24,7 @@ namespace MedidorAmor
         bool active = false;
         string texto = "0.0";
         double temperature = 0.0;
-        double baselineTemp = 23;
+        double baselineTemp = 36;
         string _puerto="COM6";
 
         private void Start()
@@ -157,5 +157,8 @@ namespace MedidorAmor
             _puerto = TxtPuerto.Text;
             LblPuerto.Text = _puerto;
         }
+
+     
+     
     }
 }
